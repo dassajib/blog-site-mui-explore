@@ -62,14 +62,14 @@ const Navbar = () => {
                     <Avatar
                         onClick = {e => setOpenUserBox(true)} 
                         sx={{height: "30", width: "30"}} 
-                        alt="Remy Sharp" 
+                        alt="Sajib Das" 
                         src="/static/images/avatar/1.jpg" />
                 </CustomIcon>
 
                 <UserBox onClick = {e => setOpenUserBox(true)}>
                     <Avatar 
                         sx={{height: "30", width: "30"}} 
-                        alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+                        alt="Sajib Das" src="/static/images/avatar/1.jpg" />
                     <Typography variant="span">Sajib Das</Typography>
                 </UserBox>
             </CustomToolbar>
